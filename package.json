@@ -1,10 +1,12 @@
 {
   "name": "Markdown-Parser",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A Markdown Parser",
+  "main": "dist/markdown-parser.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm-run-all --silent clean rollup -p",
+    "clean": "rimraf dist && mkdirp dist",
+    "rollup": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/stephenLYao/Markdown-Parser/issues"
   },
-  "homepage": "https://github.com/stephenLYao/Markdown-Parser#readme"
+  "homepage": "https://github.com/stephenLYao/Markdown-Parser#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "npm-run-all": "^4.0.2",
+    "rimraf": "^2.6.1",
+    "rollup": "^0.45.2",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^2.0.1"
+  }
 }

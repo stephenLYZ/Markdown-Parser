@@ -1,0 +1,1 @@
+{"version":3,"file":"markdown-parser.js","sources":["../src/index.js"],"sourcesContent":["// convert markdown to HTML\n\nexport default function convert(md) {\n  console.log('conver!')\n}\n"],"names":["convert","md","console","log"],"mappings":"AAEA,SAAwBA,QAAQC,GAC9BC,QAAQC,IAAI"}

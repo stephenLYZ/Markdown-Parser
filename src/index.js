@@ -1,6 +1,5 @@
+// convert markdown to HTML
 
-function convert() {
-  
+export default function convert(md) {
+  console.log('conver!')
 }
-
-export default convert

@@ -16,7 +16,7 @@ export default {
   ],
   targets: [
     {
-      format: 'umd',
+      format: 'cjs',
       dest: pkg.main
     }
   ]

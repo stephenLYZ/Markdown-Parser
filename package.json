@@ -2,11 +2,12 @@
   "name": "Markdown-Parser",
   "version": "1.0.0",
   "description": "A Markdown Parser",
-  "main": "dist/markdown-parser.js",
+  "main": "lib/markdown-parser.js",
   "scripts": {
     "build": "npm-run-all --silent clean rollup -p",
-    "clean": "rimraf dist && mkdirp dist",
-    "rollup": "rollup -c"
+    "clean": "rimraf lib && mkdirp lib",
+    "rollup": "rollup -c",
+    "test": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/stephenLYao/Markdown-Parser#readme",
   "dependencies": {
+    "express": "^4.15.3",
     "mkdirp": "^0.5.1",
     "npm-run-all": "^4.0.2",
     "rimraf": "^2.6.1",

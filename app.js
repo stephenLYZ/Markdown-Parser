@@ -1,6 +1,6 @@
 const express = require('express');
 const fs = require('fs');
-const convert = require('./lib/markdown-parser.js');
+const convert = require('./lib/markdown-parser.cm.js');
 
 const app = express();
 

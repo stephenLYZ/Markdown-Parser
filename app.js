@@ -10,7 +10,7 @@ app.get('/', function(req, res) {
       console.log('读取文件失败!')
     }
     res.writeHead(200, {"Content-Type": "text/html;charset=UTF-8"});
-    let html = data.toString();
+    let html = convert(data.toString());
     console.log('读取文件成功');
     res.end(html);
   })

@@ -22,19 +22,22 @@ PHP!PHP!PHP
   
 使用双星号来表示 **我很粗** 文本， 也可以使用双下划线表示 __我也很粗__ 文本
 
-使用双星号和下划线来表示 **_我又粗又斜** 文本
+使用双星号和下划线来表示 **_我又粗又斜_** 文本
 
 使用波浪线来表示中间线 ~~我是中间线~~
   
-这是一张图片啦啦啦![Placehold.it 200x200 image](http://placehold.it/200x200)
+这是一张图片啦啦啦
+
+![Placehold.it 200x200 image](http://7xl0rs.com1.z0.glb.clouddn.com/md.jpg)
 
   
 ## 无序列表
-  
-* Apple
-* Pen
-* ApplePen
-  
+
+- Apple
+-  Pen
+-  ApplePen
+
+
 ## 有序列表
   
 1. 夏天
@@ -44,7 +47,14 @@ PHP!PHP!PHP
   
   
 #### 最后是代码啦啦啦
-  
-```language-js
-console.log('I am super handsome!')
+
+
+```js
+console.log('I am super handsome!');
 ```
+
+
+
+
+
+

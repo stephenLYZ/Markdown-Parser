@@ -1,7 +1,7 @@
 ## Markdown Parser
 > A super mini markdown parser, just a toy!
 
-[Online Play~]()
+[Online Play~](https://codepen.io/stephenLYao/pen/WExqRM)
 
 ### Development
 

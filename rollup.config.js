@@ -17,6 +17,10 @@ export default {
   targets: [
     {
       format: 'cjs',
+      dest: pkg.module
+    },
+    {
+      format: 'iife',
       dest: pkg.main
     }
   ]

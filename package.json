@@ -1,8 +1,9 @@
 {
-  "name": "Markdown-Parser",
+  "name": "MarkdownParser",
   "version": "1.0.0",
   "description": "A Markdown Parser",
   "main": "lib/markdown-parser.js",
+  "module" : "lib/markdown-parser.cm.js",
   "scripts": {
     "build": "npm-run-all --silent clean rollup -p",
     "clean": "rimraf lib && mkdirp lib",
